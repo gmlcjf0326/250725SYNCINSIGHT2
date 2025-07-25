@@ -1,47 +1,25 @@
-# SyncInsight - RAG 기반 AI 챗봇 프로토타입
+# SyncInsight - AI Knowledge Management System
 
-한국어 중심의 RAG(Retrieval Augmented Generation) 기반 AI 챗봇 프론트엔드 프로토타입입니다. 실제 백엔드 없이도 완전한 사용자 경험을 제공하는 고품질 데모 애플리케이션입니다.
+SyncInsight는 RAG(Retrieval-Augmented Generation) 기반의 지능형 지식 관리 시스템입니다.
 
-## 🌟 주요 기능
+## 🚀 주요 기능
 
-### 💬 지능형 채팅 인터페이스
-- **실시간 타이핑 애니메이션**: AI가 실제로 답변을 생성하는 것처럼 자연스러운 타이핑 효과
-- **출처 표시**: 답변과 함께 참조한 문서 정보를 실시간으로 표시
-- **신뢰도 점수**: 각 답변의 정확도를 시각적으로 표현
-- **대화 기록 관리**: LocalStorage 기반 영구 저장
-
-### 📚 지식베이스 관리
-- **드래그앤드롭 파일 업로드**: PDF, Word, 텍스트, 마크다운, 한글 파일 지원
-- **실시간 문서 처리**: 업로드 → 텍스트 추출 → 청킹 → 임베딩 과정 시뮬레이션
-- **태그 기반 분류**: 문서를 카테고리별로 체계적 관리
-- **검색 및 필터링**: 제목, 내용, 태그로 빠른 문서 검색
-
-### 🕸️ 지식 그래프 시각화
-- **D3.js 기반 인터랙티브 그래프**: 문서 간 연관관계를 시각적으로 표현
-- **실시간 물리 시뮬레이션**: 노드 드래그, 줌, 팬 기능 지원
-- **관련도 기반 연결**: 공통 태그와 내용 유사도로 문서 간 연결 표시
-
-### 🎨 한국어 특화 UX/UI
-- **현지화된 인터페이스**: 모든 텍스트와 메시지를 한국어로 제공
-- **한국 비즈니스 샘플 데이터**: 인사규정, 보안정책, 업무프로세스 등 실제적인 콘텐츠
-- **직관적인 네비게이션**: 한국인 사용자 친화적인 UI/UX 패턴
+- **AI 챗봇**: 자연어로 질문하고 정확한 답변을 즉시 받아보세요
+- **통합 지식베이스**: 문서, 파일, 데이터를 하나로 연결하여 관리
+- **다중 AI 모델**: 여러 AI 모델의 응답을 동시에 비교
+- **지식 그래프**: 문서 간의 관계를 시각적으로 탐색
+- **실시간 분석**: 사용 패턴과 인사이트를 대시보드에서 확인
 
 ## 🛠️ 기술 스택
 
-- **Frontend**: Next.js 14 + TypeScript + Tailwind CSS
-- **UI Components**: Shadcn/ui + Radix UI
-- **애니메이션**: Framer Motion
-- **상태 관리**: Zustand + LocalStorage
-- **데이터 시각화**: D3.js
-- **Icons**: Lucide React
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **State Management**: Zustand
+- **Animation**: Framer Motion
+- **UI Components**: Radix UI, shadcn/ui
+- **Deployment**: Vercel
 
-## 🚀 실행 방법
+## 📦 설치 및 실행
 
-### 필수 조건
-- Node.js 18+ 
-- npm 또는 yarn
-
-### 설치 및 실행
 ```bash
 # 의존성 설치
 npm install
@@ -49,17 +27,54 @@ npm install
 # 개발 서버 실행
 npm run dev
 
-# 브라우저에서 http://localhost:3000 접속
-```
-
-### 빌드
-```bash
 # 프로덕션 빌드
 npm run build
 
-# 빌드된 앱 실행
+# 프로덕션 서버 실행
 npm start
 ```
+
+## 🌐 Vercel 배포 가이드
+
+### 방법 1: Vercel 대시보드를 통한 배포
+
+1. [Vercel](https://vercel.com)에 로그인
+2. "Import Git Repository" 클릭
+3. GitHub 저장소 연결: `https://github.com/gmlcjf0326/250725SYNCINSIGHT2`
+4. 프로젝트 설정:
+   - Framework Preset: Next.js
+   - Root Directory: ./
+   - Build Command: `npm run build`
+   - Output Directory: `.next`
+5. Deploy 클릭
+
+### 방법 2: Git Push를 통한 자동 배포
+
+1. GitHub에 코드 푸시:
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+```
+
+2. Vercel이 자동으로 변경 사항을 감지하고 배포합니다.
+
+### 환경 변수 설정 (선택사항)
+
+Vercel 대시보드에서 다음 환경 변수를 설정할 수 있습니다:
+
+```
+NEXT_PUBLIC_API_URL=your-api-url
+```
+
+## 📱 주요 페이지
+
+- `/` - 메인 랜딩 페이지
+- `/chat` - AI 채팅 인터페이스
+- `/knowledge` - 지식베이스 관리
+- `/dashboard` - 분석 대시보드
+- `/multi-ai` - 다중 AI 모델 비교
+- `/pricing` - 요금제 안내
 
 ## 📁 프로젝트 구조
 
@@ -68,91 +83,38 @@ src/
 ├── app/                    # Next.js App Router
 │   ├── chat/              # 채팅 인터페이스
 │   ├── knowledge/         # 지식베이스 관리
-│   └── knowledge/graph/   # 지식 그래프 시각화
+│   ├── dashboard/         # 분석 대시보드
+│   └── multi-ai/          # 다중 AI 비교
 ├── components/            # 재사용 가능한 컴포넌트
 │   ├── ui/               # 기본 UI 컴포넌트
 │   ├── chat/             # 채팅 관련 컴포넌트
 │   └── knowledge/        # 지식베이스 관련 컴포넌트
 ├── lib/                  # 유틸리티 및 서비스
-│   ├── mockData.ts       # 샘플 데이터
-│   ├── aiService.ts      # AI 응답 시뮬레이션
-│   └── utils.ts          # 공통 유틸리티
-├── stores/               # 상태 관리
-├── types/                # TypeScript 타입 정의
-└── hooks/                # 커스텀 React 훅
+├── stores/               # Zustand 상태 관리
+└── types/                # TypeScript 타입 정의
 ```
-
-## 🎯 주요 시나리오
-
-### 1. 새 사용자 온보딩
-- 랜딩 페이지에서 서비스 소개
-- 환영 메시지와 함께 예시 질문 제공
-- 빠른 질문 클릭으로 즉시 체험 가능
-
-### 2. 문서 업로드 및 처리
-- 직관적인 드래그앤드롭 인터페이스
-- 실시간 업로드 진행률 표시
-- 문서 처리 과정 시각화 (추출 → 청킹 → 임베딩)
-
-### 3. 지능형 질의응답
-- 자연어 질문 입력
-- 관련 문서 검색 및 답변 생성
-- 출처 문서와 신뢰도 점수 표시
-
-### 4. 지식 탐색
-- 지식 그래프로 문서 간 관계 시각화
-- 태그 기반 문서 분류 및 검색
-- 연관 문서 추천
 
 ## 🎨 디자인 시스템
 
-### 색상 테마
-- **Primary**: Blue to Purple Gradient
-- **Background**: Clean White/Light Gray
-- **Accent**: Contextual colors for different document types
+- **Primary Colors**: Blue to Purple Gradient
+- **Typography**: Inter Font Family
+- **Animation**: Framer Motion
+- **Icons**: Lucide React
 
-### 타이포그래피
-- **제목**: Bold, 명확한 위계 구조
-- **본문**: 가독성 최적화된 Inter 폰트
-- **코드**: Monospace font for technical content
+## 🔒 보안
 
-### 애니메이션
-- **타이핑 효과**: 자연스러운 AI 응답 시뮬레이션
-- **페이드/슬라이드**: 부드러운 페이지 전환
-- **물리 시뮬레이션**: 지식 그래프의 동적 노드 배치
+- 모든 데이터는 암호화되어 저장됩니다
+- 사용자 인증 및 권한 관리 시스템
+- 안전한 API 통신
 
-## 🔧 커스터마이제이션
+## 📝 라이선스
 
-### Mock 데이터 수정
-`src/lib/mockData.ts`에서 샘플 문서와 응답 템플릿을 수정할 수 있습니다.
+이 프로젝트는 비공개 소스입니다.
 
-### UI 테마 변경
-`src/app/globals.css`에서 CSS 변수를 수정하여 색상 테마를 변경할 수 있습니다.
+## 👥 기여
 
-### 응답 로직 개선
-`src/lib/aiService.ts`에서 AI 응답 생성 로직을 개선할 수 있습니다.
-
-## 📱 반응형 지원
-
-- **모바일**: 터치 친화적 인터페이스, 스와이프 제스처
-- **태블릿**: 적응형 레이아웃, 사이드바 토글
-- **데스크톱**: 풀 기능 지원, 키보드 단축키
-
-## 🌐 브라우저 지원
-
-- Chrome/Chromium 90+
-- Firefox 88+
-- Safari 14+
-- Edge 90+
-
-## 📄 라이선스
-
-이 프로젝트는 MIT 라이선스 하에 제공됩니다.
-
-## 🤝 기여
-
-프로토타입 개선을 위한 제안과 피드백을 환영합니다!
+문제를 발견하셨거나 개선 사항이 있으시면 이슈를 생성해 주세요.
 
 ---
 
-**SyncInsight** - AI로 더 스마트한 지식 관리를 경험하세요 🚀
+© 2024 SyncInsight. All rights reserved.

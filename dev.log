@@ -1,0 +1,624 @@
+
+> syncinsight-frontend@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.8s (1333 modules)
+ HEAD / 200 in 2980ms
+ ✓ Compiled in 188ms (674 modules)
+ ○ Compiling /knowledge ...
+ ✓ Compiled /knowledge in 1625ms (2669 modules)
+ GET /knowledge 200 in 1795ms
+ ○ Compiling /dashboard ...
+ ⨯ ./src/app/settings/page.tsx:24:1
+Module not found: Can't resolve '@/components/ui/label'
+[0m [90m 22 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+[0m [90m 23 |[39m [36mimport[39m { [33mInput[39m } [36mfrom[39m [32m'@/components/ui/input'[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 |[39m [36mimport[39m { [33mLabel[39m } [36mfrom[39m [32m'@/components/ui/label'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:24:1
+Module not found: Can't resolve '@/components/ui/label'
+[0m [90m 22 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+[0m [90m 23 |[39m [36mimport[39m { [33mInput[39m } [36mfrom[39m [32m'@/components/ui/input'[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 |[39m [36mimport[39m { [33mLabel[39m } [36mfrom[39m [32m'@/components/ui/label'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:24:1
+Module not found: Can't resolve '@/components/ui/label'
+[0m [90m 22 |[39m [36mimport[39m { [33mButton[39m } [36mfrom[39m [32m'@/components/ui/button'[39m[0m
+[0m [90m 23 |[39m [36mimport[39m { [33mInput[39m } [36mfrom[39m [32m'@/components/ui/input'[39m[0m
+[0m[31m[1m>[22m[39m[90m 24 |[39m [36mimport[39m { [33mLabel[39m } [36mfrom[39m [32m'@/components/ui/label'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development-fallback/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development-fallback/0.pack.gz'
+ GET /knowledge 500 in 13ms
+ ⨯ ./src/app/settings/page.tsx:25:1
+Module not found: Can't resolve '@/components/ui/switch'
+[0m [90m 23 |[39m [36mimport[39m { [33mInput[39m } [36mfrom[39m [32m'@/components/ui/input'[39m[0m
+[0m [90m 24 |[39m [36mimport[39m { [33mLabel[39m } [36mfrom[39m [32m'@/components/ui/label'[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+[0m [90m 28 |[39m [36mimport[39m { [33mTextarea[39m } [36mfrom[39m [32m'@/components/ui/textarea'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:26:1
+Module not found: Can't resolve '@/components/ui/select'
+[0m [90m 24 |[39m [36mimport[39m { [33mLabel[39m } [36mfrom[39m [32m'@/components/ui/label'[39m[0m
+[0m [90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m[31m[1m>[22m[39m[90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+[0m [90m 28 |[39m [36mimport[39m { [33mTextarea[39m } [36mfrom[39m [32m'@/components/ui/textarea'[39m[0m
+[0m [90m 29 |[39m [36mimport[39m { useChatStore } [36mfrom[39m [32m'@/stores/chatStore'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:27:1
+Module not found: Can't resolve '@/components/ui/slider'
+[0m [90m 25 |[39m [36mimport[39m { [33mSwitch[39m } [36mfrom[39m [32m'@/components/ui/switch'[39m[0m
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m[31m[1m>[22m[39m[90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 28 |[39m [36mimport[39m { [33mTextarea[39m } [36mfrom[39m [32m'@/components/ui/textarea'[39m[0m
+[0m [90m 29 |[39m [36mimport[39m { useChatStore } [36mfrom[39m [32m'@/stores/chatStore'[39m[0m
+[0m [90m 30 |[39m [36mimport[39m { [33mTabs[39m[33m,[39m [33mTabsContent[39m[33m,[39m [33mTabsList[39m[33m,[39m [33mTabsTrigger[39m } [36mfrom[39m [32m'@/components/ui/tabs'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:28:1
+Module not found: Can't resolve '@/components/ui/textarea'
+[0m [90m 26 |[39m [36mimport[39m { [33mSelect[39m[33m,[39m [33mSelectContent[39m[33m,[39m [33mSelectItem[39m[33m,[39m [33mSelectTrigger[39m[33m,[39m [33mSelectValue[39m } [36mfrom[39m [32m'@/components/ui/select'[39m[0m
+[0m [90m 27 |[39m [36mimport[39m { [33mSlider[39m } [36mfrom[39m [32m'@/components/ui/slider'[39m[0m
+[0m[31m[1m>[22m[39m[90m 28 |[39m [36mimport[39m { [33mTextarea[39m } [36mfrom[39m [32m'@/components/ui/textarea'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 29 |[39m [36mimport[39m { useChatStore } [36mfrom[39m [32m'@/stores/chatStore'[39m[0m
+[0m [90m 30 |[39m [36mimport[39m { [33mTabs[39m[33m,[39m [33mTabsContent[39m[33m,[39m [33mTabsList[39m[33m,[39m [33mTabsTrigger[39m } [36mfrom[39m [32m'@/components/ui/tabs'[39m[0m
+[0m [90m 31 |[39m [36mimport[39m { toast } [36mfrom[39m [32m'sonner'[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ⨯ ./src/app/settings/page.tsx:30:1
+Module not found: Can't resolve '@/components/ui/tabs'
+[0m [90m 28 |[39m [36mimport[39m { [33mTextarea[39m } [36mfrom[39m [32m'@/components/ui/textarea'[39m[0m
+[0m [90m 29 |[39m [36mimport[39m { useChatStore } [36mfrom[39m [32m'@/stores/chatStore'[39m[0m
+[0m[31m[1m>[22m[39m[90m 30 |[39m [36mimport[39m { [33mTabs[39m[33m,[39m [33mTabsContent[39m[33m,[39m [33mTabsList[39m[33m,[39m [33mTabsTrigger[39m } [36mfrom[39m [32m'@/components/ui/tabs'[39m[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 31 |[39m [36mimport[39m { toast } [36mfrom[39m [32m'sonner'[39m[0m
+[0m [90m 32 |[39m[0m
+[0m [90m 33 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mSettingsPage[39m() {[0m
+
+https://nextjs.org/docs/messages/module-not-found
+ ✓ Compiled /_error in 336ms (1828 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /knowledge 200 in 247ms
+ ✓ Compiled /_not-found in 460ms (3182 modules)
+ GET /knowledge 200 in 106ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1016ms (1616 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'clientModules')
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24996
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:191:62
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:122:103
+    at NoopContextManager.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NextTracerImpl.trace (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:122:28)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:191:31
+    at r6 (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1678)
+    at async doRender (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/base-server.js:1438:30)
+    at async cacheEntry.responseCache.get.routeKind (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/base-server.js:1599:28) {
+  page: '/dashboard'
+}
+ ⨯ Error: Cannot find module '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/pages/_document.js'
+Require stack:
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-middleware.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-server.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1487:12)
+    at mod.require (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js:109:84)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-server.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET /dashboard 500 in 1267ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1007ms (3433 modules)
+ GET /_next/static/chunks/fallback/webpack.js 404 in 1072ms
+ GET /_next/static/chunks/fallback/main.js 404 in 1072ms
+ GET /_next/static/chunks/fallback/react-refresh.js 404 in 1072ms
+ GET /_next/static/chunks/fallback/pages/_app.js 404 in 1068ms
+ GET /_next/static/chunks/fallback/pages/_error.js 404 in 1067ms
+ ✓ Compiled / in 218ms (1376 modules)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'clientModules')
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:39:24996
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:191:62
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+    at NoopContextManager.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NoopTracer.startActiveSpan (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+    at ProxyTracer.startActiveSpan (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:122:103
+    at NoopContextManager.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+    at ContextAPI.with (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+    at NextTracerImpl.trace (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:122:28)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/trace/tracer.js:191:31
+    at r6 (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:41:1678)
+    at async doRender (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/base-server.js:1438:30)
+    at async cacheEntry.responseCache.get.routeKind (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/base-server.js:1599:28) {
+  page: '/'
+}
+ ⨯ Error: Cannot find module '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/pages/_document.js'
+Require stack:
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-middleware.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-server.js
+- /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/start-server.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1487:12)
+    at mod.require (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:135:16)
+    at requirePage (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js:109:84)
+    at /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/next-server.js:710:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/router-server.js',
+    '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/lib/start-server.js'
+  ]
+}
+ GET / 500 in 451ms
+ ✓ Compiled /_not-found in 182ms (3193 modules)
+ GET /_next/static/chunks/fallback/main.js 404 in 227ms
+ GET /_next/static/chunks/fallback/react-refresh.js 404 in 228ms
+ GET /_next/static/chunks/fallback/webpack.js 404 in 229ms
+ GET /_next/static/chunks/fallback/pages/_app.js 404 in 224ms
+ GET /_next/static/chunks/fallback/pages/_error.js 404 in 223ms
+ ✓ Compiled in 194ms (1830 modules)
+ ✓ Compiled in 199ms (1830 modules)
+ ✓ Compiled in 243ms (1828 modules)
+ ✓ Compiled in 2.2s (3193 modules)
+ ✓ Compiled in 526ms (3179 modules)
+ ✓ Compiled in 214ms (1828 modules)
+ ✓ Compiled in 298ms (1828 modules)
+ ✓ Compiled in 177ms (1828 modules)
+ ✓ Compiled in 195ms (1828 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 370ms (3193 modules)
+ ✓ Compiled in 405ms (3193 modules)
+ ✓ Compiled in 316ms (3193 modules)
+ ✓ Compiled in 649ms (1828 modules)
+ ✓ Compiled in 592ms (1831 modules)
+ ✓ Compiled in 711ms (3196 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/server-development/1.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/server-development/1.pack.gz'
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/6.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/6.pack.gz'
+ ✓ Compiled in 367ms (3196 modules)
+ ✓ Compiled in 507ms (3196 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 1652ms (3196 modules)
+ ✓ Compiled in 304ms (3196 modules)
+ ✓ Compiled in 295ms (3196 modules)
+ ✓ Compiled in 286ms (3196 modules)
+ ✓ Compiled in 348ms (3196 modules)
+ ✓ Compiled in 291ms (3196 modules)
+ ✓ Compiled in 1097ms (1831 modules)
+ ✓ Compiled in 373ms (3196 modules)
+ ✓ Compiled in 707ms (3480 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/1.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/1.pack.gz'
+ ✓ Compiled in 362ms (3480 modules)
+ ✓ Compiled in 231ms (1855 modules)
+ ✓ Compiled in 275ms (1855 modules)
+ ✓ Compiled in 197ms (1855 modules)
+ ✓ Compiled in 192ms (1855 modules)
+ ⨯ ./src/components/ui/progress.tsx:4:1
+Module not found: Can't resolve '@radix-ui/react-progress'
+[0m [90m 2 |[39m[0m
+[0m [90m 3 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mReact[39m [36mfrom[39m [32m"react"[39m[0m
+[0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m [33m*[39m [36mas[39m [33mProgressPrimitive[39m [36mfrom[39m [32m"@radix-ui/react-progress"[39m[0m
+[0m [90m   |[39m [31m[1m^[22m[39m[0m
+[0m [90m 5 |[39m[0m
+[0m [90m 6 |[39m [36mimport[39m { cn } [36mfrom[39m [32m"@/lib/utils"[39m[0m
+[0m [90m 7 |[39m[0m
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ✓ Compiled in 303ms (3475 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/handle-externals.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 554ms (3475 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 615ms (3475 modules)
+ ✓ Compiled in 323ms (1864 modules)
+ ✓ Compiled in 187ms (1864 modules)
+ ✓ Compiled in 518ms (3475 modules)
+ ✓ Compiled in 336ms (3489 modules)
+ ✓ Compiled in 362ms (3492 modules)
+ ✓ Compiled in 335ms (3492 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz_' -> '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development/0.pack.gz'
+ ✓ Compiled in 1032ms (1864 modules)
+ ✓ Compiled in 1076ms (3478 modules)
+ ✓ Compiled in 344ms (1863 modules)
+ ✓ Compiled in 208ms (1863 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../../.next/server/app/_not-found/page' in /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server for build dependencies doesn't lead to expected result '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found/page.js', but to 'Error: Can't resolve '../../../../.next/server/app/_not-found/page' in '/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../../.next/server/app/_not-found/page (expected /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/server/app/_not-found/page.js)
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/require.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/server/load-components.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/utils.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/handle-externals.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/handle-externals.js
+<w>  at file dependencies /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at file /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+<w>  at resolve commonjs /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/node_modules/next/dist/build/webpack/loaders/next-swc-loader.js
+ ✓ Compiled in 221ms (1863 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack from /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development.pack.gz failed: TypeError: Cannot read properties of undefined (reading 'hasStartTime')
+ ✓ Compiled in 245ms (1863 modules)
+ ✓ Compiled in 184ms (1863 modules)
+ ✓ Compiled in 169ms (1863 modules)
+ ✓ Compiled in 183ms (1863 modules)
+ ✓ Compiled in 190ms (1863 modules)
+ ✓ Compiled in 165ms (1863 modules)
+ ✓ Compiled in 162ms (1863 modules)
+ ✓ Compiled in 207ms (1863 modules)
+ ✓ Compiled in 164ms (1863 modules)
+ ✓ Compiled in 187ms (1863 modules)
+ ✓ Compiled in 160ms (1863 modules)
+ ✓ Compiled in 185ms (1863 modules)
+ ✓ Compiled in 169ms (1863 modules)
+ ✓ Compiled in 175ms (1863 modules)
+ ✓ Compiled in 151ms (1863 modules)
+ ✓ Compiled in 157ms (1863 modules)
+ ✓ Compiled in 184ms (1863 modules)
+ ✓ Compiled in 188ms (1863 modules)
+ ✓ Compiled in 182ms (1863 modules)
+ ✓ Compiled in 207ms (1863 modules)
+ ✓ Compiled in 194ms (1863 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack from /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/client-development.pack.gz failed: TypeError: Cannot read properties of undefined (reading 'hasStartTime')
+ ✓ Compiled in 251ms (1863 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack from /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/server-development.pack.gz failed: TypeError: Cannot read properties of undefined (reading 'hasStartTime')
+ ✓ Compiled in 329ms (3491 modules)
+ ✓ Compiled in 177ms (1863 modules)
+ ✓ Compiled in 177ms (1863 modules)
+ ✓ Compiled in 160ms (1863 modules)
+ ✓ Compiled in 190ms (1863 modules)
+ ✓ Compiled in 182ms (1863 modules)
+ ✓ Compiled in 160ms (1863 modules)
+ ✓ Compiled in 156ms (1863 modules)
+ ✓ Compiled in 177ms (1863 modules)
+ ✓ Compiled in 154ms (1863 modules)
+ ✓ Compiled in 178ms (1863 modules)
+ ✓ Compiled in 161ms (1863 modules)
+<w> [webpack.cache.PackFileCacheStrategy] Restoring pack from /home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/.next/cache/webpack/server-development.pack.gz failed: TypeError: Cannot read properties of undefined (reading 'hasStartTime')
+ ✓ Compiled in 325ms (3491 modules)
+ ✓ Compiled in 293ms (3491 modules)
+ ✓ Compiled in 263ms (3491 modules)
+ ✓ Compiled in 288ms (3491 modules)
+ ✓ Compiled in 365ms (3491 modules)
+ ✓ Compiled in 292ms (3491 modules)
+ ✓ Compiled in 1177ms (1863 modules)
+ ✓ Compiled in 352ms (1863 modules)
+ ✓ Compiled in 204ms (1863 modules)
+ ✓ Compiled in 251ms (1863 modules)
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:501:1]
+ [2m501[0m |   const [selectedNode, setSelectedNode] = useState<string | null>(null)
+ [2m502[0m | 
+ [2m503[0m |   return (
+ [2m504[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m505[0m |       {/* 지식 그래프 시뮬레이션 */}
+ [2m506[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m507[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ✓ Compiled in 253ms (1863 modules)
+ ✓ Compiled in 197ms (1863 modules)
+ ✓ Compiled in 221ms (1863 modules)
+ ✓ Compiled in 227ms (1863 modules)
+ ✓ Compiled in 233ms (1863 modules)
+ ✓ Compiled in 223ms (1863 modules)
+ ✓ Compiled in 237ms (1863 modules)
+ ✓ Compiled in 279ms (1863 modules)
+ ✓ Compiled in 209ms (1863 modules)
+ ✓ Compiled in 236ms (1863 modules)
+ ✓ Compiled in 221ms (1863 modules)
+ ✓ Compiled in 225ms (1863 modules)
+ ✓ Compiled in 983ms (1863 modules)
+ ✓ Compiled in 181ms (1863 modules)
+ ✓ Compiled in 167ms (1863 modules)
+ ✓ Compiled in 187ms (1863 modules)
+ ✓ Compiled in 216ms (1863 modules)
+ ✓ Compiled in 228ms (1863 modules)
+ ✓ Compiled in 246ms (1863 modules)
+ ✓ Compiled in 193ms (1863 modules)
+ ✓ Compiled in 1424ms (3491 modules)
+ ✓ Compiled in 294ms (3491 modules)
+ ✓ Compiled in 273ms (3491 modules)
+ ✓ Compiled in 366ms (3491 modules)
+ ✓ Compiled in 447ms (3491 modules)
+ ✓ Compiled in 354ms (3491 modules)
+ ✓ Compiled in 346ms (3491 modules)
+ ✓ Compiled in 330ms (3491 modules)
+ ✓ Compiled in 319ms (3491 modules)
+ ✓ Compiled in 265ms (3491 modules)
+ ✓ Compiled in 619ms (3510 modules)
+ ✓ Compiled in 1153ms (1871 modules)
+ ✓ Compiled in 200ms (1871 modules)
+ ✓ Compiled in 170ms (1871 modules)
+ ✓ Compiled in 222ms (1871 modules)
+ ✓ Compiled in 1269ms (3510 modules)
+ ✓ Compiled in 308ms (3510 modules)
+ ✓ Compiled in 588ms (3513 modules)
+ ✓ Compiled in 281ms (3513 modules)
+ ✓ Compiled in 253ms (1872 modules)
+ ✓ Compiled in 235ms (1872 modules)
+ ✓ Compiled in 1246ms (3499 modules)
+ ✓ Compiled in 318ms (3513 modules)
+ ✓ Compiled in 354ms (3515 modules)
+ ✓ Compiled in 339ms (3515 modules)
+ ✓ Compiled in 311ms (1873 modules)
+ ✓ Compiled in 235ms (1873 modules)
+ ✓ Compiled in 205ms (1873 modules)
+ ✓ Compiled in 341ms (3515 modules)
+ ✓ Compiled in 464ms (3515 modules)
+ ✓ Compiled in 327ms (3515 modules)
+ ✓ Compiled in 276ms (1873 modules)
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:518:1]
+ [2m518[0m |   }
+ [2m519[0m | 
+ [2m520[0m |   return (
+ [2m521[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m522[0m |       {/* 컨트롤 패널 */}
+ [2m523[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m524[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ⨯ ./src/components/demo/EnhancedDemoFlow.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+     ,-[[36;1;4m/home/gmlcjf0326/projects_2.SuperClaude/250722SYNCINSIGHT_first_2/src/components/demo/EnhancedDemoFlow.tsx[0m:519:1]
+ [2m519[0m |   }
+ [2m520[0m | 
+ [2m521[0m |   return (
+ [2m522[0m |     <div className="space-y-6">
+     : [31;1m     ^^^[0m
+ [2m523[0m |       {/* 컨트롤 패널 */}
+ [2m524[0m |       <div className="bg-white rounded-lg border p-4">
+ [2m525[0m |         <div className="flex items-center justify-between mb-4">
+     `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/demo/EnhancedDemoFlow.tsx
+./src/components/DemoModal.tsx
+./src/app/page.tsx
+ ✓ Compiled in 296ms (1875 modules)
+ ✓ Compiled in 1088ms (1875 modules)
+ ✓ Compiled in 188ms (1875 modules)
+ ✓ Compiled in 683ms (3517 modules)
+ ✓ Compiled in 197ms (1875 modules)
+ ✓ Compiled in 244ms (1875 modules)
+ ✓ Compiled in 235ms (1875 modules)
+ ✓ Compiled in 378ms (3517 modules)
+ ✓ Compiled in 367ms (3517 modules)
+ ✓ Compiled in 282ms (3517 modules)
+ ✓ Compiled in 186ms (1875 modules)
+ ✓ Compiled in 426ms (3517 modules)
+ ✓ Compiled in 385ms (3517 modules)
+ ✓ Compiled in 350ms (3517 modules)
+ ✓ Compiled in 408ms (3517 modules)
+ ✓ Compiled in 671ms (1875 modules)
+ ✓ Compiled in 206ms (1875 modules)
+ ✓ Compiled in 219ms (1875 modules)
